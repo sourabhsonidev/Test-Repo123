@@ -6,4 +6,5 @@ function greet1(name) {
 }
 
 greet("Bob");
+greeet1("Bob");
 
