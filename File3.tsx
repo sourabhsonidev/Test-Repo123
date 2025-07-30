@@ -1,11 +1,11 @@
 import React from 'react';
 
 type Props = {
-  name: string;
+  displayName: string;
 };
 
-const Greeting: React.FC<Props> = ({ name }) => (
-  <h1>Hello, {name}!</h1>
+const Greeting: React.FC<Props> = ({ displayName }) => (
+  <h1>Hello, {displayName}!</h1>
 );
 
 export default Greeting;
